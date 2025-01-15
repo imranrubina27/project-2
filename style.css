@@ -1,0 +1,185 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+.content {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 250px;
+  margin: 250px;
+   background-color: #eae2b7;
+  
+}
+
+
+
+
+
+
+.p-container {
+  display: flex;
+  flex-direction: row;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   gap: 20px; /* reduce the gap to 10px */
+   background-color: #eae2b7;
+  }
+/* Set the font family for any h1, h2, or h3 heading */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+}
+header h1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px 20px;
+  text-family: Playfair Display;
+  font-size:1.5em;
+  white-space: nowrap
+}
+ h2 {
+  text-align: center;
+  margin: 0;
+  padding: 10px 20px;
+  text-family: Playfair Display;
+  font-size:1.5em;
+  white-space: nowrap
+}
+ h3 {
+ text-align: right;
+  
+}
+
+.nav-bar {
+ display: flex;
+  gap: 20px;
+}
+.nav-bar a {
+  color: #003049;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  white-space: nowrap;
+  
+}
+a:link {
+  color: red;
+}
+
+
+article {
+  padding: 20px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+  margin: 20px 0;
+  
+}
+
+/* Add your solution below */
+
+.image-circle { border-radius: 50%;
+               width:175px;
+               height:175px;
+                
+
+
+}
+.image-circle {
+  float: left;
+  
+}
+.image-circle {
+  outline-style:solid;
+  outline-width: 2px;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
+
+
+} 
+
+footer {
+  text-align: center;
+
+}
+
+
+.logo {
+  margin-center: 10px; /* add some space between logo and nav */
+}
+
+nav {
+  /* add styles for the nav links here */
+}
+
+.logo {
+  margin-center: 10px; /* reduce the margin to 10px */
+}
+
+.artist-statement {
+    flex: 1;
+    text-align: right;
+  
+}
+
+
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+.list {
+  justify-content: right;
+  
+}
+.center-align {
+  text-align: judtify;
+  line-height: 1.6;
+  margin: 0 auto;
+  width: 80%; /* Optional: adjust width to control the line length */
+  }
+  /*.Abstract-Red {
+    flex: 1;
+    margin:10px;
+  }
+.Spiral-Zany {
+  flex: 1; 
+  margin:10px; 
+}
+.Melted-Rainbow {
+  flex: 1;
+  margin:10px;
+}*/
+  .class-item {
+    flex: 1;
+    margin: 10px;
+  }
