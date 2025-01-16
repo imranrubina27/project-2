@@ -7,10 +7,15 @@
   padding: 250px;
   margin: 200px;
   padding-top: 0px;
-  margin-top:0px;
- background-color: #eae2b7;
+  margin-top: 0px;
+   background-color: #eae2b7;
   
-}
+
+/*.wrapper {
+  width: 400px;
+  margin: auto;
+}*/
+
 
 
 
@@ -20,12 +25,14 @@
 .p-container {
   display: flex;
   flex-direction: row;
- }
+  
+  
+}
 header {
   display: flex;
   align-items: center;
   justify-content: center;
-   gap: 20px; /* reduce the gap to 10px */
+   gap: 5px; /* reduce the gap to 10px */
    background-color: #eae2b7;
   }
 /* Set the font family for any h1, h2, or h3 heading */
@@ -43,17 +50,22 @@ header h1 {
   white-space: nowrap
 }
  h2 {
-  text-align: center;
-  margin: 0;
+  text-align: center
+ margin: 0;
   padding: 10px 20px;
   text-family: Playfair Display;
   font-size:1.5em;
   white-space: nowrap
 }
- .intro {
+
+.intro {
  text-align: center;
-   margin-left: 280px;
+  margin-left: 280px;
   
+}
+.subtitle {
+  text-align: center;
+
 }
 
 .nav-bar {
@@ -127,7 +139,7 @@ hr {
 
 
 
-.footer {
+footer {
   text-align: center;
 
 }
@@ -163,12 +175,12 @@ nav {
 /*.list {
   justify-content: right;
   
-}
+}*/
 .center-align {
   text-align: justify;
   line-height: 1.6;
   margin: 0 auto;
-  width: 80%; Optional: adjust width to control the line length */
+  width: 80%; /* Optional: adjust width to control the line length */
   }
   /*.Abstract-Red {
     flex: 1;
@@ -186,9 +198,10 @@ nav {
     flex: 1;
     margin: 10px;
   }
-.contact-list {
-  text-align: left;
-}
-.contact-list ol {
-  display: inline-block;
-}
+  .contact-list  {  
+    text-align: left;
+    
+  }
+  .contact-list ol {
+    display: inline-block;
+  }
