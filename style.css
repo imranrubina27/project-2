@@ -166,11 +166,11 @@ nav {
   justify-content: right;
   
 }
-/*.center-align {
-  text-align: judtify;
+.center-align {
+  text-align: justify;
   line-height: 1.6;
   margin: 0 auto;
-  width: 80%; /* Optional: adjust width to control the line length */
+  width: 80%; Optional: adjust width to control the line length */
   }
   /*.Abstract-Red {
     flex: 1;
