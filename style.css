@@ -8,7 +8,7 @@
   margin: 200px;
   padding-top: 0px;
   margin-top:0px;
-   background-color: #eae2b7;
+ background-color: #eae2b7;
   
 }
 
@@ -20,9 +20,7 @@
 .p-container {
   display: flex;
   flex-direction: row;
-  padding-top: 0px;
-  margin-top:0px;
-}
+ }
 header {
   display: flex;
   align-items: center;
@@ -189,7 +187,7 @@ nav {
     margin: 10px;
   }
 .contact-list {
-  text-align: center;
+  text-align: left;
 }
 .contact-list ol {
   display: inline-block;
