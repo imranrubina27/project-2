@@ -122,7 +122,7 @@ hr {
 }
 
 
-} 
+
 
 footer {
   text-align: center;
@@ -149,15 +149,15 @@ nav {
 }
 
 
-}
+
 .header-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-}
-.list {
+
+/*.list {
   justify-content: right;
   
 }
