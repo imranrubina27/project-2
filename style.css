@@ -5,7 +5,7 @@
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 250px;
-  margin: 150px;
+  margin: 200px;
    background-color: #eae2b7;
   
 }
@@ -161,7 +161,7 @@ nav {
   justify-content: right;
   
 }
-.center-align {
+/*.center-align {
   text-align: judtify;
   line-height: 1.6;
   margin: 0 auto;
@@ -183,3 +183,9 @@ nav {
     flex: 1;
     margin: 10px;
   }
+.contact-list {
+  text-align: center;
+}
+.contact-list ol {
+  display: inline-block;
+}
